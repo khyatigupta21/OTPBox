@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 
-const refSearch = () => {
+const RefSearch = () => {
   const [search, setSearch] = useState("");
     const _searchRef = useRef<any>({});
   
@@ -27,4 +27,4 @@ const refSearch = () => {
   );
 };
 
-export default refSearch ;
+export default RefSearch ;
